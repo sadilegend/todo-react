@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    $DOCKER_IMAGE_NAME = "sadilegend/todo-front"
+    DOCKER_IMAGE_NAME = "sadilegend/todo-front"
     dockerImage = ""
     DOCKERHUB_CREDENTIALS = credentials('docker-hub')
   }
