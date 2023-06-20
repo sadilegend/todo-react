@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default class TodoService {
-  console.log(255, window.location.hostname)
+  
   all(callback) {
     axios.get('http://'+window.location.hostname+':32600/todo')
     .then((response) => {
